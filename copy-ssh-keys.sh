@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # run ssh-keygen if you haven't already
 # and then...
