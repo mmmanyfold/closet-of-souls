@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-ssh pi@192.168.50.34 \
+ssh pi@192.168.29.234 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=41 udp://239.0.1.23:1234?buffer_size=1200000B' & \
-ssh pi@192.168.50.83 \
+ssh pi@192.168.29.245 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=41 udp://239.0.1.23:1234?buffer_size=1200000B' & \
-ssh pi@192.168.50.47 \
+ssh pi@192.168.29.241 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=42 udp://239.0.1.23:1234?buffer_size=1200000B' & \
-ssh pi@192.168.50.92 \
+ssh pi@192.168.29.148 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=42 udp://239.0.1.23:1234?buffer_size=1200000B' & \
-ssh pi@192.168.50.13 \
+ssh pi@192.168.29.148 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=43 udp://239.0.1.23:1234?buffer_size=1200000B' & \
-ssh pi@192.168.50.199 \
+ssh pi@192.168.29.213 \
 	'pkill pwomxplayer; pwomxplayer --tile-code=44 udp://239.0.1.23:1234?buffer_size=1200000B'

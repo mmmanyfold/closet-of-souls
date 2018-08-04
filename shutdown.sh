@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-ssh pi@192.168.50.34 \
+ssh pi@192.168.29.234 \
 	'sudo halt' & \
-ssh pi@192.168.50.83 \
+ssh pi@192.168.29.245 \
 	'sudo halt' & \
-ssh pi@192.168.50.47 \
+ssh pi@192.168.29.241 \
 	'sudo halt' & \
-ssh pi@192.168.50.92 \
+ssh pi@192.168.29.148 \
 	'sudo halt' & \
-ssh pi@192.168.50.13 \
+ssh pi@192.168.29.249 \
 	'sudo halt' & \
-ssh pi@192.168.50.199 \
+ssh pi@192.168.29.213 \
 	'sudo halt'
