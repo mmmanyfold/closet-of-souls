@@ -1,16 +1,33 @@
 ## closet of souls
 
+### setup
+
+`./copy-ssh-keys.sh`
+
 ### running
+
 ```
-./copy-ssh-keys.sh
+# from listeners
 ./listen-all.sh
 
-# from master 
-avconv -re -i indonesia.mp4 -map 0:0 -vcodec copy -f avi udp://239.0.1.23:1234 -map 0:1 -acodec copy -f avi udp://239.2.2.3:2020
+# from steam
+pkill pwomxplayer; pwomxplayer -A udp://239.0.1.23:1234?buffer_size=1200000B 
 ```
 
-### shutting down
+### shutting down all Pi's
 
 ```
 ./shutdown.sh
+```
+
+### rebooting all Pi's
+
+```
+./reboot.sh
+```
+
+### update piwall tile config
+
+```
+./update-tiles.sh
 ```
