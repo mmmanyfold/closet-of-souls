@@ -1,5 +1,5 @@
 [3bez]
-width=100
+width=103
 height=89
 x=0
 y=0
@@ -22,16 +22,16 @@ y=0
 [h148]
 wall=3bez
 width=29
-height=21
+height=22
 x=65
 y=35
 
 [i245]
 wall=3bez
 width=29
-height=21
+height=22
 x=0
-y=64
+y=66
 
 [j241]
 wall=3bez
@@ -43,6 +43,6 @@ y=66
 [k234]
 wall=3bez
 width=29
-height=21
+height=22
 x=74
-y=65
+y=66
