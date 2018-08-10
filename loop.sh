@@ -4,9 +4,9 @@ type=$1
 while true; do
         if [[ $type == "master" ]]; then
                 echo "Streaming video"
-                avconv -re -i ../video1/INDONESIA.mp4 -vcodec copy -f avi -an upd://239.0.1.23:1234
+                avconv -re -i ../video1/INDONESIA.mp4 -vcodec copy -f avi -an udp://239.0.1.23:1234
                 #call kill pwomplayer
-                avconv -re -i ../video1/C1_low.mp4 -vcodec copy -f avi -an upd://239.0.1.23:1234
+                avconv -re -i ../video1/C1_low.mp4 -vcodec copy -f avi -an udp://239.0.1.23:1234
         else
                 omxplayer ../video1/*.mp4
                 echo "Done with video"
