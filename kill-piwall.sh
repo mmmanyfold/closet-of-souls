@@ -1,19 +1,24 @@
 #!/usr/bin/env bash
 
+# ./kill-piwall.sh <process name>
+# ./kill-piwall.sh omxplayer # stop local video
+# ./kill-piwall.sh pwomxplayer # stop stream listener
+process=$1
+
 ssh pi@192.168.29.234 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"
 
 ssh pi@192.168.29.245 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"
 
 ssh pi@192.168.29.241 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"
 
 ssh pi@192.168.29.148 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"
 
 ssh pi@192.168.29.249 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"
 
 ssh pi@192.168.29.213 \
-	'pkill pwomxplayer; exit'
+	"pkill $process; exit"

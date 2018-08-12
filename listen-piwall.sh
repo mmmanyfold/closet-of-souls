@@ -17,3 +17,6 @@ ssh pi@192.168.29.249 \
 
 ssh pi@192.168.29.213 \
 	'nohup pwomxplayer -A udp://239.0.1.23:1234?buffer_size=1200000B &> /dev/null & exit'
+
+sleep 5
+echo "Done starting listeners"
