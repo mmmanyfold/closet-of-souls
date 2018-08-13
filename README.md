@@ -8,7 +8,7 @@
 
 ```
 # from listeners
-./listen-piwall.sh
+./listen.sh
 
 # from streamer
 avconv -re -i movie.avi -vcodec copy -f avi -an udp://239.0.1.23:1234
@@ -23,7 +23,7 @@ avconv -re -i movie.avi -vcodec copy -f avi -an udp://239.0.1.23:1234
 ### rebooting all Pi's
 
 ```
-./reboot-all.sh
+./reboot.sh
 ```
 
 ### update piwall tile config
