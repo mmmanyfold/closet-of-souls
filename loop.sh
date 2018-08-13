@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 while true; do
+        #@@@@@@ --- 1st SET --- @@@@@@#
+
         ./listen.sh
         echo "Streaming video"
         # stream 1
@@ -13,7 +15,9 @@ while true; do
         omxplayer /home/pi/video1/local/*.mp4
         # end local 1 on tiles
         ./kill.sh omxplayer
-        # start listening again
+
+        #@@@@@@ --- 2nd SET --- @@@@@@#
+
         ./listen.sh
         # stream 2
         avconv -re -i /home/pi/video2/*.mp4 -vcodec copy -f avi -an udp://239.0.1.23:1234
@@ -26,6 +30,18 @@ while true; do
         # end local 2 on tiles
         ./kill.sh omxplayer
 
-        echo "Playing second video"
-        #omxplayer ../*.mp4
+        #@@@@@@ --- 3rd SET --- @@@@@@#
+
+        ./listen.sh
+        # stream 3
+        avconv -re -i /home/pi/video3/*.mp4 -vcodec copy -f avi -an udp://239.0.1.23:1234
+        # kill listeners
+        ./kill.sh pwomxplayer
+        # play local video 3
+        ./play-local.sh 3
+        # play local video 3
+        omxplayer /home/pi/video3/local/*.mp4
+        # end local 3 on tiles
+        ./kill.sh omxplayer
+
 done
