@@ -9,7 +9,7 @@ admin creds
 
 **ASUS ROUTER 2**
 admin creds
-`admin:password`
+`admin:infocalypse`
 
 **Wireless Area Network**
 network: mmm-piwall-5G
