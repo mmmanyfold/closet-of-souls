@@ -4,20 +4,14 @@
 
 `./copy-ssh-keys.sh`
 
-### running
+### running main loop
 
-```
-# from listeners
-./listen.sh
-
-# from streamer
-avconv -re -i movie.avi -vcodec copy -f avi -an udp://239.0.1.23:1234
-```
+`./loop.sh`
 
 ### shutting down all Pi's
 
 ```
-./shutdown-all.sh
+./shutdown.sh
 ```
 
 ### rebooting all Pi's
@@ -31,3 +25,16 @@ avconv -re -i movie.avi -vcodec copy -f avi -an udp://239.0.1.23:1234
 ```
 ./update-tiles.sh
 ```
+### kill process by name
+
+```
+./kill.sh <process name>
+i.e.
+./kill.sh omxplayer # stops local video
+./kill.sh pwomxplayer # stops stream listener
+```
+
+### Copying SSH key after re-imaging PI
+
+`ssh-keygen -f "/home/pi/.ssh/known_hosts" -R 192.168.29.XYZ`
+

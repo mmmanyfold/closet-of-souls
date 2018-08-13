@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # ./kill.sh <process name>
-# ./kill.sh omxplayer # stop local video
-# ./kill.sh pwomxplayer # stop stream listener
+# ./kill.sh omxplayer # stops local video
+# ./kill.sh pwomxplayer # stops stream listener
 
 process=$1
 

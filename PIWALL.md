@@ -97,8 +97,3 @@ B8:27:EB:61:1C:4B 192.168.29.243 E [08.08.18]
 B8:27:EB:59:72:EA 192.168.29.185 L [08.08.18]
 B8:27:EB:09:F6:EC 192.168.29.127 M [08.08.18]
 ```
-
-## Copy SSH key after re-imaging PI
-
-`ssh-keygen -f "/home/pi/.ssh/known_hosts" -R 192.168.29.XYZ`
-
