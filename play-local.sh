@@ -22,4 +22,22 @@ ssh pi@192.168.29.249 \
 ssh pi@192.168.29.213 \
   "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
 
+ssh pi@192.168.29.217 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
+ssh pi@192.168.29.202 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
+ssh pi@192.168.29.122 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
+ssh pi@192.168.29.243 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
+ssh pi@192.168.29.185 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
+ssh pi@192.168.29.127 \
+  "nohup omxplayer -b /home/pi/video$videoNum/*.mp4 &> /dev/null & exit"
+
 echo "Done starting videos"

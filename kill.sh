@@ -23,3 +23,21 @@ ssh pi@192.168.29.249 \
 
 ssh pi@192.168.29.213 \
 	"pkill $process; exit"
+
+ssh pi@192.168.29.217 \
+	"pkill $process; exit"
+
+ssh pi@192.168.29.202 \
+	"pkill $process; exit"
+
+ssh pi@192.168.29.122 \
+	"pkill $process; exit"
+
+ssh pi@192.168.29.185 \
+	"pkill $process; exit"
+
+ssh pi@192.168.29.127 \
+	"pkill $process; exit"
+
+ssh pi@192.168.29.243 \
+	"pkill $process; exit"
