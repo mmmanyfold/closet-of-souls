@@ -1,48 +1,48 @@
 [3bez]
-width=103
-height=89
+width=1010
+height=877
 x=0
 y=0
 
 # corresponding tile definitions
 [f213]
 wall=3bez
-width=55
-height=41
-x=0
-y=0
+width=550
+height=410
+x=10
+y=10
 
 [g249]
 wall=3bez
-width=29
-height=22
-x=65
+width=290
+height=215
+x=670
 y=0
 
 [h148]
 wall=3bez
-width=29
-height=22
-x=65
-y=35
+width=290
+height=215
+x=680
+y=330
 
 [i245]
 wall=3bez
-width=29
-height=22
+width=290
+height=210
 x=0
-y=66
+y=640
 
 [j241]
 wall=3bez
-width=29
-height=22
-x=38
-y=66
+width=280
+height=215
+x=380
+y=650
 
 [k234]
 wall=3bez
-width=29
-height=22
-x=74
-y=66
+width=280
+height=212
+x=730
+y=665
