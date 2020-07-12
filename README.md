@@ -1,4 +1,8 @@
 ## closet of souls
+![](https://stufff.s3.amazonaws.com/closet3.png)
+![](https://stufff.s3.amazonaws.com/closet5.jpg)
+![](https://stufff.s3.amazonaws.com/closet4.png)
+![](https://stufff.s3.amazonaws.com/closet2.jpg)
 
 ### setup
 
